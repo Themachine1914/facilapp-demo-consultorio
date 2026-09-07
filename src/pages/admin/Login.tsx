@@ -13,8 +13,8 @@ export function LoginPage() {
     (location.state as { from?: { pathname: string } } | null)?.from
       ?.pathname || '/admin'
 
-  const [email, setEmail] = useState(DEMO.email)
-  const [password, setPassword] = useState(DEMO.password)
+  const [email, setEmail] = useState<string>(DEMO.email)
+  const [password, setPassword] = useState<string>(DEMO.password)
   const [submitting, setSubmitting] = useState(false)
 
   if (!loading && isAdmin) {
