@@ -37,9 +37,9 @@ export function AdminLayout() {
       <aside className="border-b border-sage-100 bg-white lg:w-64 lg:border-b-0 lg:border-r lg:min-h-screen">
         <div className="flex items-center gap-3 px-5 py-5">
           <img
-            src="/brand/logo-seal.jpg"
-            alt=""
-            className="h-10 w-10 rounded-full object-cover"
+            src="/brand/logo-facilapp.png"
+            alt="FacilApp"
+            className="h-8 w-auto object-contain"
           />
           <div>
             <p className="font-display text-lg text-sage-700 leading-tight">

@@ -44,9 +44,9 @@ export function LoginPage() {
         className="w-full max-w-md border border-sage-100 bg-white p-8 shadow-sm"
       >
         <img
-          src="/brand/logo-seal.jpg"
-          alt=""
-          className="mx-auto h-16 w-16 rounded-full object-cover"
+          src="/brand/logo-facilapp.png"
+          alt="FacilApp"
+          className="mx-auto h-12 w-auto object-contain"
         />
         <h1 className="mt-4 text-center font-display text-3xl text-ink">
           Acceso admin

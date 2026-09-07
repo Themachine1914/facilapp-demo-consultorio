@@ -18,9 +18,9 @@ export function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" onClick={() => setOpen(false)} className="shrink-0">
           <img
-            src="/brand/logo-seal.png"
-            alt="FacilApp Demo"
-            className="h-16 w-16 object-contain sm:h-[4.25rem] sm:w-[4.25rem]"
+            src="/brand/logo-facilapp.png"
+            alt="FacilApp"
+            className="h-9 w-auto object-contain sm:h-10"
           />
         </Link>
 
